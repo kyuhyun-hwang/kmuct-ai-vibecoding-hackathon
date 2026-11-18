@@ -1,6 +1,6 @@
 # Spec: 국민대 공지 에이전트
 
-2026-09-19 · 입력: `docs/decisions.md`, 상민의 UI 시안(원본 `UI (2).html`, 9/19 밤 최종. 당일에는 HTML을 가져갈 수 없어 `docs/ui-spec.md`로 글로 옮겼다), 아키텍처 그림 4장(`firebim/kirothon` 레포의 `docs/diagrams/`), 같은 레포의 `core/llm.py`.
+2026-09-19 · 입력: `docs/decisions.md`, UI 시안(원본 `UI (2).html`, 9/19 밤 최종. 당일에는 HTML을 가져갈 수 없어 `docs/ui-spec.md`로 글로 옮겼다), 아키텍처 그림 4장(사전 준비 레포의 `docs/diagrams/`), 같은 레포의 `core/llm.py`.
 오늘 리허설과 9/20 당일 모두 이 문서로 만든다. "초안"이라고 적힌 곳은 아직 확정되지 않았다.
 9/19 밤에 UI 시안이 `UI (1)`에서 `UI (2)`로 바뀌었다. 바뀐 점과 그에 따라 고친 곳은 13절에 있다.
 
@@ -130,7 +130,7 @@ docs/decisions.md
 docs/ui-spec.md       UI 시안을 글로 옮긴 화면 명세. static/index.html은 이것으로 만든다
 docs/ui-screens/      시안 화면 스크린샷 28장 (ui-spec.md가 번호로 가리킨다)
 docs/assets/          로고 PNG 2개
-docs/ui-mockup.html   상민의 시안 HTML 원본. 레포에만 있고 당일에는 없다. 만들 때 읽지 않는다
+docs/ui-mockup.html   UI 시안 HTML 원본. 레포에만 있고 당일에는 없다. 만들 때 읽지 않는다
 SPEC.md
 tasks/               plan.md, todo.md
 ```
@@ -957,7 +957,7 @@ def at_least(value, need: float) -> str:
 - **이미지 판독:** OCR 대신 Claude가 미리 읽은 판독본을 쓴다. 20건 안쪽이고, 나머지는 검토 대기열로 간다.
 - **학사안내 조회 도구:** 뺐다.
 
-**UI (2)로 바뀐 것 (9/19 밤).** 상민의 최종 시안을 따른다. 백엔드 코드는 고치지 않고 문서만 고쳤고, 재실행 때 이 문서로 다시 만든다.
+**UI (2)로 바뀐 것 (9/19 밤).** 최종 UI 시안을 따른다. 백엔드 코드는 고치지 않고 문서만 고쳤고, 재실행 때 이 문서로 다시 만든다.
 
 | 바뀐 것 | decisions | 고친 곳 |
 |---|---|---|
